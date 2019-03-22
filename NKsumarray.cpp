@@ -3,14 +3,13 @@ using namespace std;
 
 class get
 {
+	private:
+	int i,s=0;
 	public:
 	int sum(int N, int K, int a[])
-	{
-		int i,s=0;
-	
+	{	
 	for (i=0;i<K;i++)
 	{
-		cout<<a[i];
 		s = s + a[i];
 	}
 	return s;
@@ -24,7 +23,6 @@ int main() {
 	{
 		cin>>a[i];
 	}
-	cout<<N<<" "<<K;
 	get g;
 	cout<<g.sum(N,K,a);
 	return 0;
