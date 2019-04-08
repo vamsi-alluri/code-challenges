@@ -1,2 +1,5 @@
 #Code is to be written here
-print(int(input())**int(input()))
+x,y = input().split()
+print(int(x)**int(y))
+
+#print(int(input())**int(input()))
