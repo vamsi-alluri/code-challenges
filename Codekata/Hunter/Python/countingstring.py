@@ -23,4 +23,4 @@ for i in d:
       print("*",end="")
       print(i[1],end="")
    else:
-      print(i[1],end="")
+      print(i[1])
