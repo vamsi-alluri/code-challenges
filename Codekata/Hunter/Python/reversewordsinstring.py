@@ -1,2 +1,2 @@
 #author : admin
-print(' '.join(w[::-1] for w in input().split()))
+print(' '.join(x[::-1] for x in input().split()))
