@@ -1,4 +1,3 @@
 n = [x for x in input()]
-s = list(set(n))
-s.sort()
+s = list(dict.fromkeys(n))
 print("".join(s))
