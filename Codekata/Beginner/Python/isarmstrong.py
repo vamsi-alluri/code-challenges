@@ -1,17 +1,13 @@
-def isArmstrong (x):
-    n = 0
-    temp = x
-    while (x!=0):
-        n = n+1
-        x = x/10
-    sum1 = 0
-    while (temp!=0):
-        r = temp%10
-        sum1 = sum1 + (r**3)
-        temp = temp/10
-    if (sum1==x):
-        print("yes")
-    else:
-        print("no")
-n = int(input())
-isArmstrong(n)
+num=input()
+temp = len(num)
+num = int(num)
+org = num
+su = 0
+while (num!=0):
+   digit = (num % 10) ** temp
+   su += digit
+   num //= 10
+if (org == su):
+    print("yes")
+else:
+    print("no")
