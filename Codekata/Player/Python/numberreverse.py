@@ -1,1 +1,1 @@
-print(''.join(x[::-1] for x in input().split()))
+print(''.join(inp[::-1] for inp in input().split()))
