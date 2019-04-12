@@ -1,3 +1,4 @@
+#admin
 n=input()
 m=input()
 s=[]
