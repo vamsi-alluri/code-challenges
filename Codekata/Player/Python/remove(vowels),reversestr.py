@@ -1,3 +1,4 @@
+dummy = input()
 List = [x for x in input()]
 Vowels = ["a", "e", "i", "o", "u"]
 for letter in List:
