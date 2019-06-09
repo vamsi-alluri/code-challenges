@@ -1,3 +1,4 @@
+dummy = input()
 array = [int(x) for x in input().split()]
 second = [int(n) for n in input().split()]
 length_second = len(second)
