@@ -1,7 +1,6 @@
 string = [*input()]
 result = []
 for i in string:
-    temp = i
     y = string.count(i)
     if y>1:
         pass
