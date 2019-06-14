@@ -1,3 +1,4 @@
+dummy = input()
 string = [int(x) for x in input().split()]
 dic = {}
 for i in string:
