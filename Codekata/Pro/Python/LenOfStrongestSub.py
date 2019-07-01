@@ -1,3 +1,2 @@
 n = [*input()]
-n = list(set(n))
-print(len(n))
+print(len(list(set(n))))
