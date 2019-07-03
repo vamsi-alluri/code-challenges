@@ -7,5 +7,5 @@ for i in range(q):
 for i in range(q):
     lower = l[i][0]
     upper = l[i][1]
-    s = sum(n[lower:upper+1])
+    s = sum(n[lower-1:upper])
     print(s)
