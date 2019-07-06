@@ -1,4 +1,4 @@
-n = input()
+n = int(input())
 sum_even = 0
 sum_odd = 0
 b = [int(x) for x in input().split()]
