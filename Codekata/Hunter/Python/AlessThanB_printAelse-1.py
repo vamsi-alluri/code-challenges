@@ -2,6 +2,7 @@
 #input 5 3 1 6 -1
 #output 3 1 -1 -1 -1
 #if 5>3 print 3 else -1
+dummy = input()
 c = [int(x) for x in input().split()]
 a = []
 l = len(c)
