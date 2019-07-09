@@ -7,8 +7,7 @@ a = []
 l = len(c)
 for i in range(1,l):
     if c[i-1]>c[i]:
-        a.append(str(c[i]))
+        print(c[i],end=" ")
     else:
-        a.append(str(-1))
-a.append(str(-1))
-print(" ".join(a))
+        print("-1",end=" ")
+print("-1")
