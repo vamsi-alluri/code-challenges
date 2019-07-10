@@ -1,5 +1,5 @@
 try:
     x = int(input())
-    print("yes")
+    print("Yes")
 except ValueError:
-    print("no")
+    print("No")
