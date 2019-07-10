@@ -1,4 +1,4 @@
-#beginner 24
+#beginner 24 - 26
 dummy = input()
 n = [int(x) for x in input().split()]
 n.sort()
