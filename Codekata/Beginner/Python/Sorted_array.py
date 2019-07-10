@@ -1,4 +1,4 @@
-#beginner 24 pending
+#beginner 24
 dummy = input()
 n = [int(x) for x in input().split()]
 n.sort()
