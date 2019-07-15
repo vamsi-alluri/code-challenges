@@ -3,7 +3,7 @@ def multi(n):
     for i in n:
         res = res * i
     return res
-dummy = input()
+ummy = input()
 n = [int(x) for x in input().split()]
 mul = multi(n)
 a = []
