@@ -7,25 +7,25 @@ else:
     c = 1
     for i in n[1:]:
         if prev == "a":
-            if i=="b":
-                c+=1
+            if i == "b":
+                c += 1
             else:
-                if previous>c:
+                if previous > c :
                     pass
                 else:
                     previous = c
-                c=0
+                c = 1
         if prev == "b":
-            if i=="a":
-                c+=1
+            if i == "a":
+                c += 1
             else:
-                if previous>c:
+                if previous > c :
                     pass
                 else:
                     previous = c
-                c=0
-        prev=i
-    if previous<c:
+                c = 1
+        prev = i
+    if previous < c :
         print(c)
     else:
         print(previous)
