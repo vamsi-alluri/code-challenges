@@ -1,7 +1,7 @@
 n = input()
 prev = n[0]
 previous = 0
-if ("a" not in n) and ("b" not in n):
+if ("a" and "b" not in n):
     print(0)
 else:
     c = 1
@@ -25,7 +25,7 @@ else:
                     previous = c
                 c=0
         prev=i
-if previous<c:
-    print(c)
-else:
-    print(previous)
+    if previous<c:
+        print(c)
+    else:
+        print(previous)
