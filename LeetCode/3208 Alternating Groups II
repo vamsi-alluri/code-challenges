@@ -1,0 +1,24 @@
+class Solution:
+
+    def isAlternating(self, snippet) -> bool:
+        for itr in range(1, len(snippet)):
+            if (snippet[itr-1] == snippet[itr]):
+                return False
+        return True
+    
+    def numberOfAlternatingGroups(self, colors: List[int], k: int) -> int:
+        # k is the length of the sliding window.
+        number_of_alternating_groups = 0
+        len_colors = len(colors)
+        for i in range(0, len_colors):
+            snippet = []
+            start = (i+k) % len_colors
+            if (i+k >= len_colors):
+                start = (i+k) % len_colors
+                snippet = colors[i:] + colors[0:start]
+            else:
+                snippet = colors[i:i+k]
+            
+            if self.isAlternating(snippet):
+               number_of_alternating_groups += 1 
+        return number_of_alternating_groups
